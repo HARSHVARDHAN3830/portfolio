@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background-image: url("./images/background.jpg");
+    font-family:"Lucida Handwriting", "Brush Script MT", cursive ;
+}
+
+/*navbar css*/
+
+.navbar{
+    width: 100%;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.link a{
+    color:BDF2D5;
+    padding: 10px 20px;
+    line-height: 80px;
+    font-size: larger;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.link a:hover{
+    font-size: x-large;
+}
+
+.table{
+    width: 40%;
+    height: auto;
+    margin-top: 160px;
+    margin-left: 250px;
+    border-spacing: 60px;
+
+}
+
+.image{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
